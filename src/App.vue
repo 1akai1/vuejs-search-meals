@@ -1,35 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import {ref} from 'vue'
-const x = ref(1)
-const y = ref(2)
 
-y.value = x
-
-function up(){
-  x.value++
-}
 </script>
 
 <template>
-  <div>
-    <button @click="up">click</button>
-    {{ x }} |
-    {{ y }}
-    <a href="https://vitejs.dev"
-       target="_blank">
-      <img src="/vite.svg"
-           class="logo"
-           alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/"
-       target="_blank">
-      <img src="./assets/vue.svg"
-           class="logo vue"
-           alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <h1 class="bg-blue-500">
+    App.vue
+  </h1>
 </template>
 
 <style scoped>
