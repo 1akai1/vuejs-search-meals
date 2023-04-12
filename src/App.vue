@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <h1 class="bg-blue-500">
-    App.vue
-  </h1>
+  <div class="app">
+    <router-view />
+  </div>
 </template>
 
 <style scoped>
