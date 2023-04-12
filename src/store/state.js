@@ -1,3 +1,1 @@
-export default {
-	meals: ['Salmin'],
-}
+export default {}

@@ -5,11 +5,7 @@ export default {
 		'./src/**/*.{vue,js,ts,jsx,tsx}',
 	],
 	theme: {
-		extend: {
-			sadasd: 1,
-			dsafds: dsfdsf,
-			sdfdsf: 3,
-		},
+		extend: {},
 	},
 	plugins: [require('@tailwindcss/forms')],
 }
