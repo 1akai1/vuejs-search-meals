@@ -3,7 +3,7 @@ const s = 1
 </script>
 
 <template>
-	<div>Meal list</div>
+	<div>By Ingredient</div>
 </template>
 
 <style scoped></style>
