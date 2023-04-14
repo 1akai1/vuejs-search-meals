@@ -13,6 +13,7 @@ onMounted(() => {
 
 <template>
 	<Meals :meals="meals"/>
+	<pre>{{ meals }}</pre>
 </template>
 
 <style scoped></style>

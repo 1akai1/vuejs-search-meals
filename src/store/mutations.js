@@ -10,5 +10,9 @@ export function setMealsByIngredient(state, ingredient){
 }
 export function setRandom(state, meals){
   // debugger
-  state.random = meals || []
+  state.random = [...state.random, ...meals]
+}
+export function clearRandom(state){
+  // debugger
+  state.random = []
 }
